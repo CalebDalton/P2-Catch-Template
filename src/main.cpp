@@ -9,10 +9,16 @@ int main() {
     string from, to;
     cin >> no_of_lines;
     cin >> power_iterations;
+
+
     for (int i = 0; i < no_of_lines; i++) {
         cin >> from;
         cin >> to;
         // Do Something
+        AdjacencyList::addItem(from);
+        AdjacencyList::addItem(to);
+
+        new AdjacencyList(from)
     }
     //Create a graph object
     // Created_Graph.PageRank(power_iterations);}

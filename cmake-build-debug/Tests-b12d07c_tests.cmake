@@ -1,0 +1,7 @@
+add_test( [==[Example Test Name - Change me!]==] E:/School/COP3530/P2-Catch-Template/cmake-build-debug/Tests.exe [==[Example Test Name - Change me!]==]  )
+set_tests_properties( [==[Example Test Name - Change me!]==] PROPERTIES WORKING_DIRECTORY E:/School/COP3530/P2-Catch-Template/cmake-build-debug)
+add_test( [==[Test 2]==] E:/School/COP3530/P2-Catch-Template/cmake-build-debug/Tests.exe [==[Test 2]==]  )
+set_tests_properties( [==[Test 2]==] PROPERTIES WORKING_DIRECTORY E:/School/COP3530/P2-Catch-Template/cmake-build-debug)
+add_test( [==[Example PageRank Output Test]==] E:/School/COP3530/P2-Catch-Template/cmake-build-debug/Tests.exe [==[Example PageRank Output Test]==]  )
+set_tests_properties( [==[Example PageRank Output Test]==] PROPERTIES WORKING_DIRECTORY E:/School/COP3530/P2-Catch-Template/cmake-build-debug)
+set( Tests_TESTS [==[Example Test Name - Change me!]==] [==[Test 2]==] [==[Example PageRank Output Test]==])
